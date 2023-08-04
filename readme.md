@@ -1,48 +1,30 @@
+# CODEPROBLEM Frogmi
 
+## Autor
+Nombre del autor: Sebastián Collantes
 
---  Código realizado por Sebastián Collantes Albornoz --
---------------------------------------------------------
+## Notas
+Primero que nada quería decir que es primera vez que programo con TS sin un framework de por medio, antes había realizado programas similares pero con JS únicamente y más simples, este fue un buen reto para seguir aprendiendo más.
 
-Hora de inicio:  20:15 - 02-08-2023
-Hora de término: 22:30 - 02-08-2023
+## Fechas de desarrollo
+- 02-08-2023
+  Hora de inicio:  20:15
+  Hora de término: 22:30
+- 03-08-2023
+  Hora de inicio: 20:00
+  Hora de término: 23:30
 
-Hora de inicio: 20:00 - 03-08-2023
-Hora de término: 22:30 - 03-08-2023
+### Pasos para compilar el proyecto
 
-Primero que nada quería decir que es primera vez que programo con
-TS sin un framework de por medio, antes había realizado programas
-similares pero con JS. 
+1. Verificar tener instalado:
+  - Node.js (https://nodejs.org/).
+  - TypeScript (utilizar 'npm install -g typescript' después de instalar Node.js).
+  - Tener instalado un compilador de código (VSCode recomendado).
 
-Pude realizar la solución para:
-    Mostrar la cantidad de casos abiertos entre fechas.
-    Mostrar la cantidad de casos solucionados entre fechas.
-No pude realizar por tiempo:
-    Mostrar el tiempo medio de solución entre fechas.
-    Mostrar el tiempo máximo de solución entre fechas.
+2. Clonar el repositorio en tu dispositivo local, desde la URL: https://github.com/SebastianCollantes/codeProblemFrogmi
 
+3. Cuando ya tengas clonado el repositorio, abre el proyecto. Verifica estar dentro de la carpeta "codeProblemFrogmi".
 
+4. Cuando estés dentro de la carpeta, en consola escribe el comando sin comillas: "tsc". Esto creará una carpeta llamada dist y dentro creará un archivo JS cual será compilado por el IDE a partir del archivo TS.
 
----------------------------------------------------------------
--------------- INSTRUCCIONES PARA LA COMPILACIÓN --------------
----------------------------------------------------------------
-
-Archivos:
-    - problem-test.ts: este archivo tiene toda la lógica del programa.
-    - tsconfig.json: dentro de este archivo se encuentra la configuración
-      para traducir el archivo TS a un archivo JS y ser compilado por la consola.
-    - dist(folder): dentro de esta carpeta se encuentra el archivo problem-test.json
-      que es el que finalmente compila la terminal.
-
-Para compilar:
-    - Se debe abrir VSCode (recomendado, con este IDE realicé el programa).
-    - Ingresar en consola/terminal (bash recomendada).
-    - Al estar posicionado dentro del proyecto ("cd codeProblemFrogmi") escribir sin comillas "node dist/problem-test.js"
-      (Debe tener instalado node en su equipo para poder correr los resultados.)
-      Este comando lo que hace será correr el proyecto.
-    - Para ver la funcionalidad del sistema, se debe jugar con las fechas de las
-      líneas 59 y 60, cuales representan la fecha de inicio y fin que se desea consultar:
-            const startRange = new Date('02-08-2023');
-            const endRange = new Date('05-08-2023');
-    - La información que se verá en consola es el resultado de:
-        - Casos abiertos entre las fechas asignadas.
-        - Casos solucionados entre las fechas asignadas.
+5. Escribir nuevamente en consola el comando: "node dist/problem-test.js". Esto correrá el archivo JS creado anteriormente, en la misma consola se verá el resultado del proyecto.
