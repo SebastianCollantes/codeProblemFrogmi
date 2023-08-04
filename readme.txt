@@ -6,6 +6,9 @@
 Hora de inicio:  20:15 - 02-08-2023
 Hora de término: 22:30 - 02-08-2023
 
+Hora de inicio: 20:00 - 03-08-2023
+Hora de término: 22:30 - 03-08-2023
+
 Primero que nada quería decir que es primera vez que programo con
 TS sin un framework de por medio, antes había realizado programas
 similares pero con JS. 
