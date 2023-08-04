@@ -20,6 +20,7 @@ Primero que nada quería decir que es primera vez que programo con TS sin un fra
   - Node.js (https://nodejs.org/).
   - TypeScript (utilizar 'npm install -g typescript' después de instalar Node.js).
   - Tener instalado un compilador de código (VSCode recomendado).
+  - Instalar el paqueta de npm con "npm install".
 
 2. Clonar el repositorio en tu dispositivo local, desde la URL: https://github.com/SebastianCollantes/codeProblemFrogmi
 
