@@ -5,7 +5,7 @@ interface Incident {
     fecha_solucion: Date;
 }
 
-class Store {
+export class Store {
     sumEnd: number = 0;
     sumStart: number = 0;
     incidentsCollection: Incident[] = [
