@@ -33,7 +33,7 @@ Archivos:
 Para compilar:
     - Se debe abrir VSCode (recomendado, con este IDE realicé el programa).
     - Ingresar en consola/terminal (bash recomendada).
-    - Al estar posicionado dentro del proyecto escribir sin comillas "node dist/problem-test.js"
+    - Al estar posicionado dentro del proyecto ("cd codeProblemFrogmi") escribir sin comillas "node dist/problem-test.js"
       (Debe tener instalado node en su equipo para poder correr los resultados.)
       Este comando lo que hace será correr el proyecto.
     - Para ver la funcionalidad del sistema, se debe jugar con las fechas de las
